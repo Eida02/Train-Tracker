@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/relative"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layoutcornar"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+  >
+
+
+
+    <TextView
+        android:id="@+id/trainname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/traincode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trainname"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/trainsmscode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff" />
+
+</RelativeLayout>
